@@ -1,0 +1,6 @@
+1001	zhangshan
+1002	lishi
+1003	zhaoliu
+1001	zhangshan
+1002	lishi
+1003	zhaoliu

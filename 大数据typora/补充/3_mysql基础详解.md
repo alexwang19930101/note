@@ -383,7 +383,7 @@ where id>15;
 
 | 类型     | 种类                                                         |                                                              |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 数值     | **整形** tinyint(1)、smallint(2)、mediumint(3)、int(4)、bigint(8) **unsigned** 来表示不要负数     **zerofill **填充未满足的长度 | **小数**：float(4)、doubl(8)、DEC(M,D)、DECIMAL(M,D)          定点行的长度是M+2，最大取值范围与double相同，有效范围由M、D决定。M是全部合起来位数，D是小数部分的位数。默认为deciaml(10,0) |
+| 数值     | **整形** tinyint(1)、smallint(2)、mediumint(3)、int(4)、bigint(8) **unsigned** 来表示不要负数     **zerofill **填充未满足的长度 | **小数**：float(4)、double(8)、DEC(M,D)、DECIMAL(M,D)          定点行的长度是M+2，最大取值范围与double相同，有效范围由M、D决定。M是全部合起来位数，D是小数部分的位数。默认为deciaml(10,0) |
 | 字**符** | **短文本**char(M)、varchar(M)、binary、varbinary(m)、enum 、set | **长文本**                                                   |
 | 日期     |                                                              |                                                              |
 |          |                                                              |                                                              |
